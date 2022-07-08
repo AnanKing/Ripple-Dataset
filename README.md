@@ -1,12 +1,12 @@
 # Ripple-Dataset
 This dataset is used for paper--Topology Analysis of the Ripple Payment Network
 
-##1. Introduction Environment
+## 1. Introduction Environment
 ```
 Linux version 5.13.0-52-generic
 Ubuntu 20.04.4 LTS
 ```
-##2. Dataset Decompression
+## 2. Dataset Decompression
 
 Due to the dataset being too big and GitHub will blocks push that exceed 100 MB. Therefore, we split this dataset to push it to Github.
 
@@ -38,7 +38,7 @@ Then you can simply use the below command to unzip files.
 unzip RippleDataset.zip
 ```
 
-##3. RippleData Details
+## 3. RippleData Details
 
 
 
