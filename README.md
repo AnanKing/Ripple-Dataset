@@ -41,20 +41,12 @@ unzip RippleDataset.zip
 ## 3. RippleData Details
 
 
-
 The file named OriginalData-TransactionsPayment-69521100-70327501.csv, which is original data extracts all Payment Transactions from JSON files.
-
 The file named OriginalData-TransactionsTrustSet-69521100-70327501.csv, which is original data extracts all TrustSet Transaction from JSON files.
 
 The file named TransferNum_TransactionsPayment-69521100-70327501-result.csv, which stored dtat that converts the address of sender and receiver to the number from OriginalData-TransactionsPayment-69521100-70327501.csv.
-
 The file named TransferNum_TransactionsTrustSet-69521100-70327501-result.csv, which stored data that converts the address of sender and receiver to the number from OriginalData-TransactionsTrustSet-69521100-70327501.csv.
 
-The file named TransferNum_TransactionsPayment-69521100-70327501-result-Allsame-AddEdges.csv, which stored data that extracts all repeated transactions from TransferNum_TransactionsPayment-69521100-70327501-result.csv. In addition, this file adds the edges (from sender to receiver) in the last column.
-
-The file named TransferNum_TransactionsTrustSet-69521100-70327501-result-Allsame-AddEdges.csv, which stored data that extracts all repeated transactions form TransferNum_TransactionsTrustSet-69521100-70327501-result.csv. In addition, this file adds the edges (from sender to receiver) in the last column.
-
-The file named TransferNum_TransactionsPayment-69521100-70327501-result-Delsame.csv, which stored data that extract the no-repeat transaction and repeat transactions (only keep the first transactions) from TransferNum_TransactionsPayment-69521100-70327501-result.csv.
-
-The file named TransferNum_TransactionsTrustSet-69521100-70327501-result-Delsame.csv, which stored data that extract the no-repeat transaction and repeat transactions (only keep the first transactions) from TransferNum_TransactionsTrustSet-69521100-70327501-result.csv.
+The file named Payment Network-RDPN-69521100-70327501.txt, which stored entire Payment network (RDPN) data. The format is that, source node ID, destination node ID, edge weight.
+The file named Credit Network-RCPN-69521100-70327501.txt, which stored entire Credit network (RCPN) data. The format is that, source node ID, destination node ID, edge weight.
 
